@@ -38,13 +38,7 @@ const NavigationBar = () => {
   return (
     <Navbar fixed="top" expand="lg" className={`px-2 px-md-4 ${styles.navbar}`}>
       <Navbar.Brand href="/" className={` ${styles.brandText}`}>
-        <Image
-          alt="VHD Logo"
-          src="/new-logo.png"
-          width="30"
-          height="30"
-          className="rounded-3 me-2"
-        />
+
         <span className="d-none d-md-inline-block">
           Cairo hotel services
         </span>

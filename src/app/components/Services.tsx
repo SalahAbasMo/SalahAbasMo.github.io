@@ -29,9 +29,9 @@ const Services: React.FunctionComponent<ServiceProps> = ({
                 size={100}
               ></FaTools>
             </Container>
-            <Card.Title>تنظيف غطاء العادم</Card.Title>
+            <Card.Title>تنظيف انظمة عوادم المطابخ والمطاعم</Card.Title>
             <Card.Text>
-              نحن متخصصون في تقديم خدمات تنظيف شاملة لأنظمة العادم للمطابخ التجارية.
+              نحن متخصصون في تقديم خدمات تنظيف شاملة لأنظمة العوادم للمطابخ والفنادق.
             </Card.Text>
             <Button
               variant="outline-light"

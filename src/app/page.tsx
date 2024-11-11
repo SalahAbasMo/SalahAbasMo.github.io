@@ -5,6 +5,7 @@ import styles from './page.module.css';
 import Contact from './components/Contact';
 import ExhaustCleaning from './components/ExhaustCleaning';
 import Services from './components/Services';
+import Certification from './components/Certification';
 
 export default function Home() {
   const scrollToSection = (id: any) => {
@@ -29,6 +30,12 @@ export default function Home() {
             md={6}
             className={`rounded-end mt-4 mt-md-0 ${styles.headerContent}`}
           >
+            <h1 className={` mb-4 ${styles.gradientText}`}>
+              Cairo Hotel Services
+            </h1>
+            <h1 className={` mb-4 ${styles.gradientText}`}>
+              القاهرة لخدمات المطاعم والفنادق
+            </h1>
             <h1 className={` mb-4 ${styles.gradientText}`}>
               خدمة نظيفة معتمدة من قبل خبراء.
             </h1>
@@ -60,6 +67,8 @@ export default function Home() {
       </Container>
       <Services scrollToSection={scrollToSection} />
       <ExhaustCleaning scrollToSection={scrollToSection} />
+      <Certification scrollToSection={scrollToSection} />
+
 
       <Contact />
     </>

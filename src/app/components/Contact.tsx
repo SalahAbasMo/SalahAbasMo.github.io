@@ -73,8 +73,8 @@ const Contact = () => {
                 <FaPhoneAlt size={20} className={` ${styles.iconColor}`} />
               </div>
               <h3 className="mt-4 ms-5 ps-4 text-start">اتصل بنا</h3>
-              <p className="ms-5 ps-4 text-start">01040150071</p>
-              <p className="ms-5 ps-4 text-start">022-4158744</p>
+              <h4 className="ms-5 ps-4 text-start">01040150071</h4>
+              <h4 className="ms-5 ps-4 text-start">022-4158744</h4>
 
             </Container>
 
@@ -83,9 +83,9 @@ const Contact = () => {
                 <FaEnvelope size={20} className={` ${styles.iconColor}`} />
               </div>
               <h3 className="mt-4 ms-5 ps-4 text-start">راسلنا عبر البريد الإلكتروني</h3>
-              <p className="ms-5 ps-4 text-start text-break">
+              <h4 className="ms-5 ps-4 text-start text-break">
                 cairohotelservices@gmail.com
-              </p>
+              </h4>
             </Container>
           </Col>
           <Col md={8} className="fw-medium">
