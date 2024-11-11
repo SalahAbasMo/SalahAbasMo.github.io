@@ -1,0 +1,115 @@
+.headerContainer {
+  color: black;
+}
+
+.gradientText {
+  color: black;
+}
+
+.primaryButton {
+  background-color: var(--main-color);
+  border-color: var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.primaryButton:hover {
+  background-color: transparent;
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.secondarySection {
+  background-color: #306e32;
+  color: white;
+}
+
+.cartoonImage {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  z-index: -1;
+  background-color: var(--main-color);
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  transform: translate(-25%, -15%);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  animation: pulse 2s infinite;
+}
+
+.bubble {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 64rem;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 50%;
+  background: #c1f1ff;
+}
+
+.bigBubble {
+  height: 35px;
+  width: 35px;
+  border: 4px solid #c1f1ff;
+  box-shadow: (#e0f9ff 8px 0px 0px);
+  transform: translate(700%, -400%);
+}
+
+.mediumBubble {
+  top: 120px;
+  left: 80px;
+  height: 25px;
+  width: 25px;
+  border: 4px solid #c1f1ff;
+  box-shadow: (#e0f9ff 5px 0px 0px);
+  transform: translate(700%, -650%);
+}
+
+.smallBubble {
+  top: 100px;
+  left: -60px;
+  height: 15px;
+  width: 15px;
+  box-shadow: (#e0f9ff 3px 0px 0px);
+  transform: translate(2000%, -1000%);
+}
+
+@media (max-width: 768px) {
+
+  .bubble,
+  .bigBubble,
+  .mediumBubble,
+  .smallBubble {
+    display: none;
+  }
+
+  .circle {
+    transform: translate(-20%, -70%);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(173, 216, 230, 0.7);
+  }
+
+  70% {
+    box-shadow: 0 0 0 20px rgba(173, 216, 230, 20);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(173, 216, 230, 10);
+  }
+}
+
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+  right: -160px !important;
+}

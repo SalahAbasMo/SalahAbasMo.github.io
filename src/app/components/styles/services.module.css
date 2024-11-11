@@ -1,0 +1,75 @@
+.serviceCleaningIcon {
+  color: red;
+}
+
+.card {
+  background: linear-gradient(225deg,
+      /* Changed from 135deg for RTL */
+      hsl(200, 70%, 30%) 0%,
+      var(--main-color) 100%);
+}
+
+.serviceCertificationIcon {
+  color: yellow;
+}
+
+.ternaryButton {
+  border: none;
+  color: white;
+}
+
+.ternaryButton:hover {
+  background: none;
+  color: white;
+  transition: ease-in-out 0.2s;
+  transform: scale(1.1);
+}
+
+.ternaryButton:hover .arrowIcon {
+  transition: ease-in-out 0.2s;
+  transform: scale(1.3);
+}
+
+.primaryButton {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+  transition: all 0.3s ease;
+}
+
+.primaryButton:hover {
+  background-color: transparent;
+  border-color: var(--main-color);
+}
+
+.sectionTitle {
+  display: inline-block;
+  position: relative;
+  padding: 0 40px;
+  margin: 0 0 12px;
+}
+
+.line {
+  color: var(--main-color);
+}
+
+/* Adjust for RTL by reversing ::before and ::after alignment */
+.line::before,
+.line::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 34px;
+  top: 30%;
+  background-color: var(--main-color);
+  transform: translateY(-50%);
+}
+
+.line::before {
+  right: 0;
+  /* Changed from left */
+}
+
+.line::after {
+  left: 0;
+  /* Changed from right */
+}

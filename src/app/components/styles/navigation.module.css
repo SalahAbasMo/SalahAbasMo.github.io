@@ -1,0 +1,51 @@
+.navbar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* Changed from left for RTL */
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg-color);
+  box-shadow: var(--shadow);
+  z-index: -1;
+  transform: translateY(calc(-100% - 10px));
+  transition: transform 0.5s ease;
+}
+
+.navbar {
+  position: fixed;
+  right: 0;
+  /* Changed from left for RTL */
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  padding: 10px 0;
+  background-color: var(--body-bg-color) !important;
+}
+
+.navbar.bg-reveal::before {
+  transform: translateY(0) !important;
+}
+
+.navText {
+  color: var(--text-dark-grey) !important;
+  font-size: large !important;
+}
+
+.brandText {
+  color: var(--text-dark-grey) !important;
+  font-weight: bolder;
+}
+
+.navText:hover {
+  color: var(--main-color) !important;
+}
+
+.navText:focus-within {
+  color: var(--main-color) !important;
+}
+
+.font {
+  font-size: 0.8rem;
+}

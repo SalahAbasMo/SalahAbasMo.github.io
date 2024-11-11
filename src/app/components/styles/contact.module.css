@@ -1,0 +1,36 @@
+.contactInfoItem {
+  border-top: 2px solid var(--border-color);
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  background-color: var(--bg-color);
+  box-shadow: var(--shadow);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  /* Adjust for RTL positioning if required */
+}
+
+.iconColor {
+  color: var(--main-color);
+}
+
+.textArea {
+  height: 125px !important;
+}
+
+.primaryButton {
+  background-color: var(--main-color);
+  border-color: var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.primaryButton:hover {
+  background-color: transparent;
+  color: var(--main-color);
+  border-color: var(--main-color);
+}

@@ -1,0 +1,54 @@
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.sectionTitle {
+  display: inline-block;
+  position: relative;
+  padding: 0 40px;
+  margin: 0 0 12px;
+}
+
+.line {
+  color: var(--main-color);
+}
+
+/* Reverse ::before and ::after alignment for RTL */
+.line::before,
+.line::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 34px;
+  top: 30%;
+  background-color: var(--main-color);
+  transform: translateY(-50%);
+}
+
+.line::before {
+  right: 0;
+  /* Changed from left */
+}
+
+.line::after {
+  left: 0;
+  /* Changed from right */
+}
+
+.primaryButton {
+  background-color: var(--main-color);
+  border-color: var(--border-color);
+  transition: all 0.3s ease;
+  /* Adjust for RTL as needed */
+  margin-right: 10px;
+  /* Example adjustment */
+}
+
+.primaryButton:hover {
+  background-color: transparent;
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
