@@ -18,7 +18,7 @@ export default async function sendEmail(
     `;
 
     const data = {
-      to: 'adam@vancouverventcleaning.ca',
+      to: 'cairohotelservices@gmail.com',
       from: 'no-reply@vancouverventcleaning.ca',
       replyTo: body?.email,
       subject: 'A New Quote Request Has Arrived!',
