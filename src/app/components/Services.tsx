@@ -29,7 +29,7 @@ const Services: React.FunctionComponent<ServiceProps> = ({
                 size={100}
               ></FaTools>
             </Container>
-            <Card.Title>تنظيف انظمة عوادم المطابخ والمطاعم</Card.Title>
+            <Card.Title>تنظيف انظمة عوادم مطابخ الفنادق والمطاعم</Card.Title>
             <Card.Text>
               نحن متخصصون في تقديم خدمات تنظيف شاملة لأنظمة العوادم للمطابخ والفنادق.
             </Card.Text>
@@ -58,7 +58,7 @@ const Services: React.FunctionComponent<ServiceProps> = ({
                 size={100}
               ></FaCertificate>
             </Container>
-            <Card.Title>تنظيف شامل للمطابخ والفنادق</Card.Title>
+            <Card.Title>تنظيف شامل هود مطابخ الفنادق والمطاعم</Card.Title>
             <Card.Text>
               . يمكنك ضمان بيئة نظيفة وآمنة لموظفيك وعملائك.
             </Card.Text>

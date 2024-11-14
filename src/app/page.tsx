@@ -34,7 +34,7 @@ export default function Home() {
               Cairo Hotel Services
             </h1>
             <h1 className={` mb-4 ${styles.gradientText}`}>
-              القاهرة لخدمات المطاعم والفنادق
+              القاهرة لخدمات تنظيف هود المطاعم والفنادق
             </h1>
             <h1 className={` mb-4 ${styles.gradientText}`}>
               خدمة نظيفة معتمدة من قبل خبراء.

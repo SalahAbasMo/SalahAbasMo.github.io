@@ -35,7 +35,7 @@ const ExhaustCleaning: React.FunctionComponent<scrollProps> = ({
           </div>
           <Row className="my-4 py-4 text-start">
             <Col md={6} className="d-flex align-items-center">
-              <h1> ضمان نظافة المطابخ التجارية و الفنادق  </h1>
+              <h1> ضمان نظافة هود المطابخ التجارية و الفنادق  </h1>
             </Col>
             <Col md={6}>
               <p>
